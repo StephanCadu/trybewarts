@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  top: 0;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+/* Requisito 1 */
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  color: azure;
+  font-size: 25px;
+}
+
+/* Requisito 2 */
+.trybewarts-header-logo {
+  height: 90px;
+  width: 90px;
+}
+
+/* Requisito 3 */
+.trybewarts-login {
+  display: flex;
+}
+
+.head-inputs {
+  margin: 0 5px;
+  height: 30px;
+  border-radius: 20px;
+  border: 2px solid purple;
+}
+
+#login-button {
+  border-radius: 20px;
+  color: white;
+  background-color: purple;
+}
+
+/* Requisito 5 */
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 20px;
+
+  /* Requisito 6 */
+  flex-direction: column;
+}
+
+/* Requisito 7 */
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+/* Requisito 9 */
+#part-one {
+  display: flex;
+  flex-flow: row wrap;
+  border-bottom: 1px solid rgb(67, 67, 66);
+  justify-content: space-evenly;
+  padding: 10px;
+  align-items: center;
+}
+
+#house-label {
+  font-size: 19px;
+}
+
+/* Requisito 10 e 11 */
+.inputs {
+  width: 300px;
+  border-radius: 20px;
+  height: 30px;
+  margin: 5px;
+}
+
+#house {
+  width: 270px;
+  border-radius: 20px;
+  height: 35px;
+  margin: 5px;
+}
+
+/* Requisito 12 */
+#part-two {
+  display: flex;
+  border-bottom: 1px solid rgb(67, 67, 66);
+}
+
+#familia {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 400px;
+  font-size: 20px;
+  height: 200px;
+}
+
+/* Requisito 13 */
+#conteudo {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 20px;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.subjects {
+  width: 130px;
+  margin: 5px;
+  height: 50px;
+}
+
+/* Requisito 14 */
+#nota {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.notas {
+  margin: 0 3px;
+}
+
+/* Requisito 15 */
+#text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.textarea {
+  align-self: flex-start;
+}
+
+/* Requisito 16 */
+#check {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#agreement {
+  margin: 0 10px;
+}
+
+/* Requisito 17 */
+#submit-btn {
+  width: 100%;
+  height: 30px;
+  border-radius: 20px;
+  background-color: purple;
+  color: azure;
+}
+
+/* Requisito 19 */
+#footer {
+  height: 30px;
+  background-color: rgb(67, 67, 66);
+  color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+/* Requisito 21 */
+#form-data {
+  display: none;
+  height: 500px;
+  width: 675px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  line-height: 50px;
+  font-size: 30px;
+}
